@@ -66,7 +66,7 @@ ul {
   #inline-photo {
     display: none;
   }
-  .content-container {
+  section {
     transform: translateX(7rem);
   }
   .cta-link {
@@ -131,7 +131,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: .2rem;
 }
-.content-container {
+section {
   flex-grow: 1;
   max-width: 672px;
 }
