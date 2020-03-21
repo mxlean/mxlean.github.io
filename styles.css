@@ -52,11 +52,11 @@ ul {
 }
 #nav {
   display: none;
-  -webkit-animation: fadein 7s;
-     -moz-animation: fadein 7s;
-      -ms-animation: fadein 7s;
-       -o-animation: fadein 7s;
-          animation: fadein 7s;
+  -webkit-animation: fadein 6.5s;
+     -moz-animation: fadein 6.5s;
+      -ms-animation: fadein 6.5s;
+       -o-animation: fadein 6.5s;
+          animation: fadein 6.5s;
 
 }
 @media (min-width: 1200px) {
@@ -98,11 +98,11 @@ a:hover {
 
 }
 p, h2, h3, hr, img {
-  -webkit-animation: fadein 7.5s;
-     -moz-animation: fadein 7.5s;
-      -ms-animation: fadein 7.5s;
-       -o-animation: fadein 7.5s;
-          animation: fadein 7.5s;
+  -webkit-animation: fadein 5.5s;
+     -moz-animation: fadein 5.5s;
+      -ms-animation: fadein 5.5s;
+       -o-animation: fadein 5.5s;
+          animation: fadein 5.5s;
 }
 img + p {
   margin-top: 4rem;
