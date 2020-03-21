@@ -96,16 +96,21 @@ a:hover {
           animation: fadein 1.5s;
 
 }
-p, h2, h3, hr {
+p, h2, h3, hr, img {
   -webkit-animation: fadein 7.5s;
      -moz-animation: fadein 7.5s;
       -ms-animation: fadein 7.5s;
        -o-animation: fadein 7.5s;
           animation: fadein 7.5s;
 }
+img + p {
+  margin-top: 4rem;
+}
 .summary {
   font-size: 2rem;
   line-height: 3rem;
+  margin-bottom: .5rem;
+
   -webkit-animation: fadein 4s;
      -moz-animation: fadein 4s;
       -ms-animation: fadein 4s;
@@ -137,7 +142,7 @@ hr {
   transform: scale(1.02);
 }
 img {
-  margin: 2rem 0 1rem 0;
+  margin-top: 2rem;
   width: 100%;
   border-radius: .5rem;
 }
