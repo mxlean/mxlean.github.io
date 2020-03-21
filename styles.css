@@ -96,19 +96,12 @@ a:hover {
           animation: fadein 1.5s;
 
 }
-p, h2, h3 {
-  -webkit-animation: fadein 8s;
-     -moz-animation: fadein 8s;
-      -ms-animation: fadein 8s;
-       -o-animation: fadein 8s;
-          animation: fadein 8s;
-}
-hr {
-  -webkit-animation: fadein 7s;
-     -moz-animation: fadein 7s;
-      -ms-animation: fadein 7s;
-       -o-animation: fadein 7s;
-          animation: fadein 7s;
+p, h2, h3, hr {
+  -webkit-animation: fadein 7.5s;
+     -moz-animation: fadein 7.5s;
+      -ms-animation: fadein 7.5s;
+       -o-animation: fadein 7.5s;
+          animation: fadein 7.5s;
 }
 .summary {
   font-size: 2rem;
