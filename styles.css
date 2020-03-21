@@ -23,6 +23,13 @@ nav {
   font-size: 1rem;
   text-align: center;
   line-height: 2;
+
+  -webkit-animation: fadein 2s;
+     -moz-animation: fadein 2s;
+      -ms-animation: fadein 2s;
+       -o-animation: fadein 2s;
+          animation: fadein 2s;
+
 }
 nav .jamie-photo {
   display: block;
@@ -45,6 +52,12 @@ ul {
 }
 #nav {
   display: none;
+  -webkit-animation: fadein 7s;
+     -moz-animation: fadein 7s;
+      -ms-animation: fadein 7s;
+       -o-animation: fadein 7s;
+          animation: fadein 7s;
+
 }
 @media (min-width: 1200px) {
   #nav {
@@ -55,6 +68,9 @@ ul {
   }
   section {
     transform: translateX(7rem);
+  }
+  .cta-link {
+    display: none;
   }
 }
 a {
@@ -72,10 +88,36 @@ a:hover {
   font-size: 3rem;
   font-weight: 500;
   color: #fff;
+
+  -webkit-animation: fadein 1.5s;
+     -moz-animation: fadein 1.5s;
+      -ms-animation: fadein 1.5s;
+       -o-animation: fadein 1.5s;
+          animation: fadein 1.5s;
+
+}
+p, h2, h3 {
+  -webkit-animation: fadein 8s;
+     -moz-animation: fadein 8s;
+      -ms-animation: fadein 8s;
+       -o-animation: fadein 8s;
+          animation: fadein 8s;
+}
+hr {
+  -webkit-animation: fadein 7s;
+     -moz-animation: fadein 7s;
+      -ms-animation: fadein 7s;
+       -o-animation: fadein 7s;
+          animation: fadein 7s;
 }
 .summary {
   font-size: 2rem;
   line-height: 3rem;
+  -webkit-animation: fadein 4s;
+     -moz-animation: fadein 4s;
+      -ms-animation: fadein 4s;
+       -o-animation: fadein 4s;
+          animation: fadein 4s;
 }
 h2 {
   font-size: 3rem;
@@ -110,6 +152,12 @@ img {
   border-radius: 50%;
   width: 9rem;
   margin-bottom: 0;
+
+  -webkit-animation: fadein 1.5s;
+     -moz-animation: fadein 1.5s;
+      -ms-animation: fadein 1.5s;
+       -o-animation: fadein 1.5s;
+          animation: fadein 1.5s;
 }
 .gray-bg {
   background: #ddd;
@@ -120,4 +168,30 @@ img {
 }
 .narrow-img:nth-child(even) {
   margin-right: 8%;
+}
+
+@keyframes fadein {
+    0%    { opacity: 0; }
+    50%   { opacity: 0; }
+    100%  { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    0%    { opacity: 0; }
+    50%   { opacity: 0; }
+    100%  { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    0%    { opacity: 0; }
+    50%   { opacity: 0; }
+    100%  { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    0%    { opacity: 0; }
+    50%   { opacity: 0; }
+    100%  { opacity: 1; }
+}
+@-o-keyframes fadein {
+    0%    { opacity: 0; }
+    50%   { opacity: 0; }
+    100%  { opacity: 1; }
 }
