@@ -46,6 +46,10 @@ h2, #lead-text {
     line-height: 3rem;
     font-weight: bold;
 }
+h3 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
 p {
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
