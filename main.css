@@ -77,12 +77,12 @@ a, a:visited {
         max-width: 35%;
         min-width: 96px;
     }
-    h2, #lead-text {
+    /* h2, #lead-text {
         font-size: 1.5rem;
         line-height: 1.75rem;
     }
     p {
         font-size: 1rem;
         line-height: 1.5rem;
-    }
+    } */
   }
